@@ -26,8 +26,8 @@
         var storage = sessionStorage;
         //sessionStorageへの格納
         function setsessionStorage(){
-          var key = documet.getElementById("textkey").value;
-          var value = documet.getElementById("textdata").value;
+          var key = document.getElementById("textkey").value;
+          var value = document.getElementById("textdata").value;
           //値の入力チェック
           if(key && value){
             storage.setItem(key, value);
